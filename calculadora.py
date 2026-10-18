@@ -35,15 +35,6 @@ def funcionDivision ():
     print ( division)
 
 def funcionecuacion ():
-    numero1 = input ("Primer número: ")
-    numero2 = input("Segundo número: ")
-    numero3 = input("Tercer número: ")
-
-    numero1 = int ( numero1)
-    numero2 = int ( numero2)
-    numero3 = int ( numero3)
-    ecuacion = (numero1 + numero2) * numero3
-    print ( ecuacion)
 
 while funcionar == True:
  print ( "Nuestras opciones:")
