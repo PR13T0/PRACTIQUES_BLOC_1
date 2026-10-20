@@ -34,15 +34,17 @@ def funcionDivision ():
     division = numero1 / numero2
     print ( division)
 
-def funcionecuacion ():
-
+def funcionHipotenusa ():
+    cat1 = input ("Primer cateto")
+    cat2 = input ("Segundo cateto")
+     
 while funcionar == True:
  print ( "Nuestras opciones:")
  print ( "1. Realizar una suma")
  print ( "2. Realizar una resta")
  print ( "3. Realizar una multiplicación")
  print ( "4. Realizar una división")
- print ( "5. Realizar una ecuación")
+ print ( "5. Calcular el costado de un triángulo rectángulo")
  print ( "6. Terminar")
 
  pregunta = input ( "¿Qué quieres hacer?:")
@@ -55,7 +57,9 @@ while funcionar == True:
  elif pregunta == "4":
      funcionDivision ()
  elif pregunta == "5":
-     funcionecuacion ()
+     print ( "1. Calcular la hipotenusa")
+     funcionHipotenusa ()
+     print ( "2. Calcular un cateto")
  elif pregunta == "6":
      print ( "Adiós")
      funcionar=False
